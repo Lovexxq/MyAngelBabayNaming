@@ -1,0 +1,46 @@
+# maven ignore
+target/
+*.class
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+
+# eclipse ignore
+.settings/
+.classpath
+.project
+
+.gitlab-ci.yml.exampleforchair
+
+#idea ignore
+.idea/
+*.ipr
+*.imp
+*.iml
+*.iws
+
+#antd ignore
+static/node_modules
+static/dist
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.perf
+*.so
+*.dev
+*.test
+*.txt
+
+# system ignore
+.DS_Store
+Thumbs.db
+.gradle/
+logs/
+deploy/
+
+#test ignore
+app/test/test-output
